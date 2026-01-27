@@ -1,0 +1,575 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="bg-animation">
+      <div class="circle-1"></div>
+      <div class="circle-2"></div>
+      <div class="circle-3"></div>
+      <div class="circle-4"></div>
+    </div>
+
+    <!-- //navigation -->
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <span class="logo-text">Saroj Adhikari</span>
+          <div class="logo-dot"></div>
+        </div>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#home" class="nav-item"
+              ><i class="fas fa-home"></i> <span>Home</span></a
+            >
+          </li>
+          <li>
+            <a href="#about" class="nav-item"
+              ><i class="fas fa-user"></i> <span>About</span></a
+            >
+          </li>
+          <li>
+            <a href="#projects" class="nav-item"
+              ><i class="fas fa-code"></i> <span>Projects</span></a
+            >
+          </li>
+          <li>
+            <a href="#skills" class="nav-item"
+              ><i class="fas fa-tools"></i> <span>Skills</span></a
+            >
+          </li>
+          <li>
+            <a href="#contact" class="nav-item"
+              ><i class="fas fa-envelope"></i> <span>Contact</span></a
+            >
+          </li>
+        </ul>
+
+        <div class="theme-toggle">
+          <i class="fas fa-moon" id="theme-icon"></i>
+        </div>
+
+        <button class="menu-toggle">
+          <i class="fas fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+
+    <!-- //herosection -->
+    <section id="home" class="hero">
+      <div class="container">
+        <div class="hero-content">
+          <div class="hero-text">
+            <div class="greeting">Hello, I'm</div>
+            <h1 class="name">
+              <!-- add your name here -->
+              <span class="name-text">Saroj Adhikari</span>
+              <!-- <span class="name-highlight">HERE</span> -->
+            </h1>
+            <div class="typing-text">
+              <span class="typed-text">Web Developer</span>
+              <span class="cursor">|</span>
+            </div>
+            <p class="hero-description">
+              A passionate student creating beautiful, functional digital
+              experiences. Welcome to my creative space.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                <span>View My Work</span>
+                <i class="fas fa-arrow-right"></i>
+              </a>
+              <a href="#contact" class="btn btn-secondary">
+                <i class="fas fa-paper-plane"></i>
+                <span>Contact Me</span>
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-image">
+            <div class="image-wrapper">
+              <div class="image-frame">
+                <!-- add image here -->
+                <img
+                  src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                  alt="Profile Picture"
+                  class="profile-img"
+                />
+              </div>
+              <div class="floating-elements">
+                <div class="floating-element element-1">
+                  <i class="fab fa-html5"></i>
+                </div>
+                <div class="floating-element element-2">
+                  <i class="fab fa-css3-alt"></i>
+                </div>
+                <div class="floating-element element-3">
+                  <i class="fab fa-js"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="scroll-indicator">
+          <div class="mouse">
+            <div class="wheel"></div>
+          </div>
+          <p>Scroll to explore</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- //aboutSection -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About <span class="highlight">Me</span></h2>
+          <p class="section-subtitle">Get to know me better</p>
+        </div>
+
+        <div class="about-content">
+          <div class="about-image">
+            <div class="about-img-container">
+              <img
+                src="https://images.unsplash.com/photo-1517077304055-6e89abbf09b0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=400&q=80"
+                alt="About Me"
+              />
+              <div class="about-img-overlay"></div>
+            </div>
+          </div>
+
+          <div class="about-text">
+            <h3>
+              Turning Ideas into <span class="highlight">Digital Reality</span>
+            </h3>
+            <p>
+              Hello! I'm a dedicated student with a passion for technology and
+              design. I love creating digital solutions that are both beautiful
+              and functional.
+            </p>
+
+            <div class="about-details">
+              <div class="detail-item">
+                <i class="fas fa-graduation-cap"></i>
+                <div>
+                  <h4>Education</h4>
+                  <p>Kist College</p>
+                  <p>Bachelor of Information Technology</p>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <i class="fas fa-heart"></i>
+                <div>
+                  <h4>Interests</h4>
+                  <p>Web Development, UI/UX Design, Photography</p>
+                </div>
+              </div>
+            </div>
+
+            <p>
+              I'm constantly learning new technologies and improving my skills
+              to become a better developer every day.
+            </p>
+
+            <div class="stats">
+              <div class="stat-item">
+                <h4>5+</h4>
+                <p>Projects Completed</p>
+              </div>
+              <div class="stat-item">
+                <h4>100+</h4>
+                <p>Hours of Learning</p>
+              </div>
+              <div class="stat-item">
+                <h4>3+</h4>
+                <p>Technologies Mastered</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- //project -->
+    <section id="projects" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            My <span class="highlight">Projects</span>
+          </h2>
+          <p class="section-subtitle">A showcase of my recent work</p>
+        </div>
+
+        <div class="project-grid">
+          <div class="project-card">
+            <div class="project-img">
+              <div class="project-number">01</div>
+              <img
+                src="https://images.unsplash.com/photo-1551650975-87deedd944c3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                alt="Project 1"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+              </div>
+              <h3>Modern Website Design</h3>
+              <p>
+                A responsive website with modern design elements, animations,
+                and user-friendly interface.
+              </p>
+              <div class="project-links">
+                <a href="#"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <div class="project-number">02</div>
+              <img
+                src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w-600&q=80"
+                alt="Project 2"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>React</span>
+                <span>API</span>
+                <span>CSS</span>
+              </div>
+              <h3>Weather Application</h3>
+              <p>
+                A weather app that fetches real-time data from an API and
+                displays it in a beautiful interface.
+              </p>
+              <div class="project-links">
+                <a href="#"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-img">
+              <div class="project-number">03</div>
+              <img
+                src="https://images.unsplash.com/photo-1545235617-9465d2a55698?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=600&q=80"
+                alt="Project 3"
+              />
+            </div>
+            <div class="project-content">
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>UI/UX</span>
+                <span>Animation</span>
+              </div>
+              <h3>Interactive Portfolio</h3>
+              <p>
+                A creative portfolio website with interactive elements, smooth
+                animations, and modern design.
+              </p>
+              <div class="project-links">
+                <a href="#"
+                  ><i class="fas fa-external-link-alt"></i> Live Demo</a
+                >
+                <a href="#"><i class="fab fa-github"></i> Code</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="view-more">
+          <a href="#" class="btn btn-outline">
+            <span>View All Projects</span>
+            <i class="fas fa-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- //skills section -->
+    <section id="skills" class="skills">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            My <span class="highlight">Skills</span>
+          </h2>
+          <p class="section-subtitle">Technologies I work with</p>
+        </div>
+
+        <div class="skills-container">
+          <div class="skill-category">
+            <h3><i class="fas fa-code"></i> Frontend</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-level="90">
+                <div class="skill-info">
+                  <span>HTML</span>
+                  <span class="skill-percent">90%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-level="85">
+                <div class="skill-info">
+                  <span>CSS</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-level="75">
+                <div class="skill-info">
+                  <span>JavaScript</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-level="70">
+                <div class="skill-info">
+                  <span>React</span>
+                  <span class="skill-percent">70%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category">
+            <h3><i class="fas fa-paint-brush"></i> Design</h3>
+            <div class="skill-items">
+              <div class="skill-item" data-level="80">
+                <div class="skill-info">
+                  <span>UI/UX Design</span>
+                  <span class="skill-percent">80%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-level="75">
+                <div class="skill-info">
+                  <span>Figma</span>
+                  <span class="skill-percent">75%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-level="85">
+                <div class="skill-info">
+                  <span>Adobe XD</span>
+                  <span class="skill-percent">85%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+
+              <div class="skill-item" data-level="65">
+                <div class="skill-info">
+                  <span>Photoshop</span>
+                  <span class="skill-percent">65%</span>
+                </div>
+                <div class="skill-bar">
+                  <div class="skill-progress"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-icons">
+          <div class="skill-icon"><i class="fab fa-html5"></i></div>
+          <div class="skill-icon"><i class="fab fa-css3-alt"></i></div>
+          <div class="skill-icon"><i class="fab fa-js"></i></div>
+          <div class="skill-icon"><i class="fab fa-react"></i></div>
+          <div class="skill-icon"><i class="fab fa-figma"></i></div>
+          <div class="skill-icon"><i class="fab fa-git-alt"></i></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- //contactsection -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">
+            Get In <span class="highlight">Touch</span>
+          </h2>
+          <p class="section-subtitle">Let's work together</p>
+        </div>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <!-- write your email here -->
+                <p>your.email@example.com</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Phone</h4>
+                <!-- write your phone number here -->
+                <p>9XXXXXXXXXXXX</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <!-- write your location here -->
+                <p>Your City, Country</p>
+              </div>
+            </div>
+
+            <div class="contact-card">
+              <div class="contact-icon">
+                <i class="fas fa-clock"></i>
+              </div>
+              <div class="contact-details">
+                <h4>Available</h4>
+                <p>Monday - Friday</p>
+                <p>9:00 AM - 6:00 PM</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form-container">
+            <form class="contact-form" id="contactForm">
+              <div class="form-group">
+                <input type="text" placeholder="Your Name" required />
+              </div>
+
+              <div class="form-group">
+                <input type="email" placeholder="Your Email" required />
+              </div>
+
+              <div class="form-group">
+                <input type="text" placeholder="Subject" required />
+              </div>
+
+              <div class="form-group">
+                <textarea
+                  placeholder="Your Message"
+                  rows="5"
+                  required
+                ></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                <span>Send Message</span>
+                <i class="fas fa-paper-plane"></i>
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-logo">
+            <span>PORTFOLIO</span>
+            <div class="logo-dot"></div>
+          </div>
+
+          <p class="footer-text">
+            Crafted with <i class="fas fa-heart"></i> by a passionate student<br />
+            <small>
+              Template by
+              <a
+                href="https://react-portfolio-frontend.vercel.app/"
+                __blank
+                style="color: var(--primary)"
+                >j0ras</a
+              >
+            </small>
+          </p>
+
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="#" class="social-link">
+              <i class="fab fa-codepen"></i>
+            </a>
+          </div>
+
+          <div class="footer-bottom">
+            <p>
+              &copy; <span id="currentYear"></span> My Portfolio. All rights
+              reserved.
+            </p>
+            <p>Made with HTML, CSS & JavaScript</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="backToTop" class="back-to-top">
+      <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
